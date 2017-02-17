@@ -35,5 +35,5 @@ Clock.defaultProps = {
 };
 
 Clock.propTypes = {
-  totalSeconds: React.PropTypes.number
+  totalSeconds: React.PropTypes.number.isRequired
 };
