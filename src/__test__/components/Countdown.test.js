@@ -28,7 +28,7 @@ describe('Countdown', () => {
       countdown.instance().handleSetCountdown(1);
 
       setTimeout(() => {
-        expect(countdown.state()).toEqual({count: 0, countdownStatus: 'started'});
+        expect(countdown.state()).toEqual({count: 0, countdownStatus: 'stopped'});
         done();
       }, 1001);
     });
